@@ -170,9 +170,3 @@ const servidor = http.createServer(responderRequisicao);
 servidor.listen(porta, host, () =>{
     console.log('Servidor escutando em http://'+ host + ":" + porta);
 })
-
-
-
-
-
-
